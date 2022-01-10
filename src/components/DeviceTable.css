@@ -1,0 +1,31 @@
+.box {
+    
+    padding: 20px;
+    padding-left: 120px;
+    
+    
+    box-shadow: 5px 10px 5px 5px rgb(128,128,128);  
+    
+};
+.item {
+    font-size: 30px;
+
+}
+.item tr:nth-child(odd) {
+    background-color: #ff33cc;
+    
+
+
+};
+.item tr:nth-child(even) {
+    background-color: #e495e4;
+    
+
+
+};
+.item1 {
+    display: grid;
+    grid-template-areas: 'myArea';
+    background-color: blue;
+
+}
